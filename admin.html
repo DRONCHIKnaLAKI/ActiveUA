@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Адмін-панель ActiveUA</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="admin-container">
+    <h2>Додати нове заняття</h2>
+    <form id="activityForm">
+      <input type="text" id="activityName" placeholder="Назва" required>
+      <select id="activityType" required>
+        <option value="sport">Спорт</option>
+        <option value="mind">Інтелект</option>
+      </select>
+      <input type="text" id="activityCity" placeholder="Місто" required>
+      <input type="text" id="activityAddress" placeholder="Адреса" required>
+      <input type="text" id="activityLat" placeholder="Широта (50.45)" required>
+      <input type="text" id="activityLng" placeholder="Довгота (30.52)" required>
+      <button type="submit">Зберегти</button>
+    </form>
+  </div>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>
