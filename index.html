@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ActiveUA - Заняття в містах України</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Active<span>UA</span></h1>
+    <nav>
+      <a href="admin.html">Адмін</a>
+    </nav>
+  </header>
+
+  <div class="search-panel">
+    <input type="text" id="searchInput" placeholder="Пошук занять...">
+    <select id="citySelect">
+      <option value="">Всі міста</option>
+      <option value="Київ">Київ</option>
+      <option value="Львів">Львів</option>
+    </select>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
